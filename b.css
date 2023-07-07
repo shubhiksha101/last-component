@@ -1,0 +1,106 @@
+.flex-container
+{
+  background-color:white;
+  display:flex;
+  padding-top:1rem;
+}
+body
+{
+  margin: 0;
+}
+.x1
+{
+  width:25%;
+  text-align:center;
+}
+.x1 img
+{
+padding-top:1.2rem;
+padding-left:2.5rem;
+height:14rem;
+width:14rem;
+}
+.x2, .x3
+{
+    width:25%;
+}
+.x2 h1,.x3 h1,.x4 h1
+{
+padding-top: 0.55rem;
+text-align: center;
+font-size: 2.2rem;
+}
+.x2 p, .x3 p, .x4 p
+{
+  text-align: center;
+  color:black;
+}
+.underline
+{
+  position:relative;
+  display: inline-block;
+}
+.underline::after
+{
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1px; 
+  width: 150%; 
+  border-bottom: 1px solid #DDE6ED;
+}
+.x4
+{
+  width:25%;
+}
+button
+{
+align-items: center;
+margin-top:0.45rem;
+}
+.orange-button
+{
+  background-color:#F86F03;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+  
+.orange-button span
+{
+  margin-left: 5px;
+}
+.button-container
+{
+  display: flex;
+  justify-content: center;
+}
+.flex-container-1
+{
+  background-color: #2C3333;
+  display:flex;
+  margin-top:2rem;
+  width:100%;
+}
+.logo
+{
+  width:50%;
+  color:#F86F03;
+  text-align: center;
+  font-weight:bold;
+}
+.x
+{
+  width:50%;
+  text-align:center;
+  color:whitesmoke;
+  padding-top:0.2rem;
+  font-size:0.85rem;
+}
+ 
